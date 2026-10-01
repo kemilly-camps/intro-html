@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Details | HTML</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: #1d1d1d;
+            color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Conhecendo o &lt; details &gt;</h1>
+    <hr>
+    <h2>O que é o &lt; details &gt;</h2>
+    <p>O &lt; details &gt; representa um conteúdo que o usuário pode abrir e fechar.</p>
+
+    <details open>
+        <summary> O que é HTML?</summary>
+
+        <P>HTML é a linguagem de marcação usada para estruturar páginas da web.</P>
+    </details>
+
+    <details>
+        <summary>Quais são as linguagens da WEB?</summary>
+        <p>A principal linguagem da web são, <abbr title="Hypertext Markup Language"> HTML </abbr>, <abbr title="Cascading Style Sheet"> CSS </abbr> e JavaScript.</p>
+
+        <h3>Sobre as Linguagens</h3>
+        <ul>
+            <li><strong>HTML</strong> : Linguagem responsável pela estrutura de páginas web.</li>
+            <li><strong>CSS</strong> : Linguagem responsavél pela estilização de páginas web.</li>
+            <li><strong>JavaScript</strong> : Linguagem responsável pela interatividade de páginas web.</li>
+        </ul>
+    </details>
+
+    <hr>
+    <h2>Elemento details como faq</h2>
+    <details name="faq">
+        <summary> O que é HTML?</summary>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. At enim quasi expedita corporis omnis voluptatibus, recusandae similique ad tempora nobis asperiores tenetur cum debitis? Incidunt minima voluptate totam quibusdam corrupti!</P>
+    </details>
+
+    <details name="faq">
+        <summary>O que é CSS?</summary>
+        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error beatae cupiditate non sapiente enim ratione natus temporibus illo, mollitia consectetur, voluptatum iusto quo earum incidunt debitis praesentium adipisci dolorum culpa!</P>
+    </details>
+
+    <details name="faq">
+        <summary>O que é Javascript?</summary>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere asperiores sequi quia aperiam cumque incidunt accusamus. Eius natus libero odit officiis corporis distinctio omnis nemo, laboriosam minima suscipit non aliquam!</p>
+    </details>
+</body>
+</html>
